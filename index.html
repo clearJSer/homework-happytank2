@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/swiper.min.js"></script>
 </head>
+
 <body>
-    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+           
+            <!-- first page -->
+            <div class="swiper-slide first red">
+                <div class="title1">I PLAYED </div>
+                <div class="title2">MAHJONG</div>
+                <div class="title1">TOO MUCH</div>
+                <div class="image">
+
+                </div>
+                <img src="./images/Group.png" alt="" class="nosmile">
+            </div>
+            <!-- second page -->
+            <div class="swiper-slide first red">
+                <img src="./images/Group.png" alt="" class="nosmile2">
+                <div class="image-qi">
+
+                </div>
+                <div class="title1">SAY <span class="title2">NO</span> TO</div>
+                <div class="title1">MAHJONG</div>
+            </div>
+            <!-- thrid -->
+            <div class="swiper-slide third">
+                <h2></h2>
+            </div>
+            <!-- fourth -->
+            <div class="swiper-slide forpage red">
+                <div class="forpage-image">
+                    <img src="./images/image 12.png" alt="" width="100%" height="100%" class="reverse">
+                </div>
+                <div class="middle">The Bad Side of Mahjong</div>
+                <div class="forpage-image">
+                    <img src="./images/image 12.png" width="100%" height="100%" alt="">
+                </div>
+            </div>
+            <!-- five page -->
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">i. Waste the time</div>
+            </div>
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">ii. Frequent late nights, which damage physical and mental health.</div>
+            </div>
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">iii. Addiction to mahjong, leading to menntal depression, which affects work,
+                    study and life.</div>
+            </div>
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">IV. Gatherings of people playing mahjong,
+                    interfering with neighborhood life, affecting unity, which is not conducive to harmonious
+                    community building.
+                </div>
+            </div>
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">V. Gambling equipment for multiple people to catch and touch,
+                    easily infected with hepatitis,
+                    tuberculosis, colds and other diseases.
+                </div>
+            </div>
+            <div class="swiper-slide fifth">
+                <div class="v-text">
+                    The Bad Side of Mahjong
+                </div>
+                <div class="fifth-title">VI. The use of mahjong gambling, whether you win or lose, will make people
+                    depressed,
+                    depressed, demotivated.
+                </div>
+            </div>
+            <!-- choose -->
+            <div class="swiper-slide red">
+                <div class="choose-text choose1">
+                    After reading this
+                </div>
+                <div class="choose-text promise">
+                    Promise me 
+                </div>
+                <div class="choose-text">
+                    that you will paly
+                </div>
+                <div class="choose-text">
+                    less mahjong.
+                </div>
+                <div class="buttons" onclick="yes">Yes !!!</div>
+                <div class="buttons" onclick="nope">Nope</div>
+            </div>
+            <!-- congruatelate -->
+            <div class="swiper-slide congratulation">
+                congratulation
+            </div>
+            <!-- last page  -->
+            <div class="swiper-slide  red lastpage">
+                <div>Unfortunately,</div>
+                <div>you need to Continue</div>
+                <div>Reading</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+        })        
+    </script>
 </body>
+
 </html>

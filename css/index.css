@@ -1,0 +1,143 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    
+}
+.red{
+    background: #D42D26;
+}
+/* 第一页 */
+.first{
+    background-color: #D42D26;
+    padding-top: 10vh;
+    text-align: center;
+}
+.title1{
+    font-size: 40px;
+    color: #fff;
+}
+.title2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+}
+.image{
+    width: 340px;
+    height: 445px;
+    background: url(../images/back.png);
+    background-position: -1389px 0;
+    transform:scaleX(0.5) scaleY(0.5) translateY(-200px);
+}
+.image-qi{
+    width: 340px;
+    height: 445px;
+    background: url(../images/back.png);
+    background-position: 0 0;
+    transform:scaleX(0.5) scaleY(0.5) translateY(-200px);
+}
+.nosmile{
+    transform: translateY(-100px);
+}
+.nosmile2{
+    margin-top: 30px;
+}
+/* 第三页 */
+.third{
+    background: url(../images/333.png);
+}
+/* for page */
+.forpage{
+    display: flex;
+    flex-direction: column;
+}
+.middle{
+    height: 80px;
+    background-color: #fff;
+    color: red;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.forpage-image{
+    flex: 1;
+}
+.reverse{
+    transform: rotateX(180deg);
+}
+/* fifth */
+.v-text{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    writing-mode:vertical-lr;
+    font-weight: 400;
+    font-size: 30px;
+    color: #E9B4BA;
+}
+.fifth-title{
+    padding-left: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    color: #D42D26;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* choose */
+.choose-text{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.choose1{
+    padding-top: 160px;
+}
+.promise{
+    font-size: 40px;
+    font-weight: 500;
+}
+.buttons{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #D42D26;
+    font-weight: 500;
+}
+.buttons:hover{
+    background-color: #000;
+}
+/* congratulation */
+.congratulation{
+    background: url(../images/背景.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+/* lastpage */
+.lastpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 28px;
+}
