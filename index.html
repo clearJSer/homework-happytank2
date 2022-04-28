@@ -14,7 +14,6 @@
 <body>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-           
             <!-- first page -->
             <div class="swiper-slide first red">
                 <div class="title1">I PLAYED </div>
@@ -28,15 +27,19 @@
             <!-- second page -->
             <div class="swiper-slide first red">
                 <img src="./images/Group.png" alt="" class="nosmile2">
-                <div class="image-qi">
-
+                <div class="image-qi"></div>
+                <div class="bottom-text">
+                    <div class="title1">SAY <span class="title2">NO</span> TO</div>
+                    <div class="title1">MAHJONG</div>
                 </div>
-                <div class="title1">SAY <span class="title2">NO</span> TO</div>
-                <div class="title1">MAHJONG</div>
+                
             </div>
             <!-- thrid -->
             <div class="swiper-slide third">
-                <h2></h2>
+                <h2 class="third-title">"Is mahjong good or bad? "</h2>
+                <div class="third-text">
+                    There is nothing wrong with mahjong itself, the key is in the people who will hold it in their hands. Most people use mahjong as a gambling tool to gamble; as a plaything to waste their lives, playing up without concern for family and friends.
+                </div>
             </div>
             <!-- fourth -->
             <div class="swiper-slide forpage red">
@@ -109,8 +112,8 @@
                 <div class="choose-text">
                     less mahjong.
                 </div>
-                <div class="buttons" onclick="yes">Yes !!!</div>
-                <div class="buttons" onclick="nope">Nope</div>
+                <div class="buttons" onclick="yes()">Yes !!!</div>
+                <div class="buttons" onclick="nope()">Nope</div>
             </div>
             <!-- congruatelate -->
             <div class="swiper-slide congratulation">
@@ -127,7 +130,13 @@
     <script>
         var mySwiper = new Swiper('.swiper-container', {
             loop: true,
-        })        
+        }) 
+        function yes(){
+            mySwiper.slideTo(12,500, false)
+        }
+        function nope(){
+            mySwiper.slideTo(13,500, false)
+        }        
     </script>
 </body>
 

@@ -41,31 +41,48 @@
     transform:scaleX(0.5) scaleY(0.5) translateY(-200px);
 }
 .nosmile{
-    transform: translateY(-100px);
+    position: absolute;
+    left: 30%;
+    bottom: 80px;
 }
 .nosmile2{
     margin-top: 30px;
 }
+.bottom-text{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+}
 /* 第三页 */
 .third{
     background: url(../images/333.png);
+    color: #D42D26;
+}
+.third-title{
+    padding: 30px;
+}
+.third-text{
+    padding: 30px;
+    font-size: 22px;
 }
 /* for page */
 .forpage{
     display: flex;
     flex-direction: column;
+    height:100%;
 }
 .middle{
-    height: 80px;
+    height: 50px;
     background-color: #fff;
     color: red;
     text-align: center;
-    line-height: 80px;
+    line-height: 50px;
     font-weight: 500;
     font-size: 30px;
 }
 .forpage-image{
-    flex: 1;
+    height:46%;
 }
 .reverse{
     transform: rotateX(180deg);
