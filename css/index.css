@@ -85,7 +85,7 @@
     height:46%;
 }
 .reverse{
-    transform: rotateX(180deg);
+    /* transform: rotateX(180deg); */
 }
 /* fifth */
 .v-text{
