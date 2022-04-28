@@ -27,23 +27,26 @@
     font-weight: 800;
 }
 .image{
-    width: 340px;
+    width: 280px;
     height: 445px;
     background: url(../images/back.png);
-    background-position: -1389px 0;
+    background-position: -1455px 0;
     transform:scaleX(0.5) scaleY(0.5) translateY(-200px);
+    margin: 0 auto;
 }
 .image-qi{
-    width: 340px;
+    width: 240px;
     height: 445px;
     background: url(../images/back.png);
-    background-position: 0 0;
+    background-position: -72px 0;
     transform:scaleX(0.5) scaleY(0.5) translateY(-200px);
+    margin: 0 auto;
 }
 .nosmile{
     position: absolute;
-    left: 30%;
-    bottom: 80px;
+    left: 50%;
+    bottom: 120px;
+    transform: translateX(-50%);
 }
 .nosmile2{
     margin-top: 30px;
@@ -51,7 +54,7 @@
 .bottom-text{
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 180px;
     width: 100%;
 }
 /* 第三页 */
@@ -63,8 +66,9 @@
     padding: 30px;
 }
 .third-text{
-    padding: 30px;
-    font-size: 22px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 /* for page */
 .forpage{
